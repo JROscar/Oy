@@ -1,11 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 using Oy.Net.Model.Models.AD;
+using OyCommon.BaseClass;
 
-namespace Oy.Net.WebApi.Controllers;
+namespace Oy.Net.WebApi.Controllers.AD;
 
-[ApiController]
-[Route("[controller]")]
-public class WeatherForecastController : ControllerBase
+// [ApiController]
+// [Route("[controller]")]
+public class WeatherForecastController : BaseController
 {
     private static readonly string[] Summaries = new[]
     {

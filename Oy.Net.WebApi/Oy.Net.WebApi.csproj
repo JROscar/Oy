@@ -13,6 +13,7 @@
     <ItemGroup>
       <ProjectReference Include="..\Oy.Net.Model\Oy.Net.Model.csproj" />
       <ProjectReference Include="..\Oy.Net.Repository\Oy.Net.Repository.csproj" />
+      <ProjectReference Include="..\OyCommon\OyCommon.csproj" />
     </ItemGroup>
 
 </Project>
